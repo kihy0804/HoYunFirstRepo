@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewBag.Title = "Stack";
+}
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="~/Content/myStyle.css" rel="stylesheet" type="text/css" />
+
+<h2>Stack Information</h2>
+
+<div style="float: right">
+    @foreach(var sData in ViewBag.StackView)
+    {
+        <p>@sData</p>
+    }
+</div>
